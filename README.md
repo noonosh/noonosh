@@ -4,7 +4,7 @@
 
 I build (and break) things, I test and ship (then break again), then I learn. Everyday.
 
-![image](/public/readme.jpg)
+<img src="/public/readme.jpg" alt="image" width="50%" align="right">
 
 ### status quo
 
