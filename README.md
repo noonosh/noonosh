@@ -1,16 +1,26 @@
 ## Hi there 👋
 
-<!--
-**noonosh/noonosh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+#### `$ whoami`
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I build (and break) things, I test and ship (then break again), then I learn. Everyday.
+
+![image](/public/readme.jpg)
+
+#### status quo
+
+- 🎓 CS @ [ARU](https://www.aru.ac.uk/)
+- 📍 London
+- 🌱 Enjoy my stack [Python](https://www.python.org/), [Firebase](https://firebase.google.com/), [TypeScript](https://www.typescriptlang.org/), [React Native](https://reactnative.dev/) and more
+- 💻 currently in love with [Cursor](https://www.cursor.com/)
+
+#### reach me
+
+<div style="display: flex; gap: 10px;">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nuriddinislamov/)
+
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mail@noonosh.com)
+
+</div>
