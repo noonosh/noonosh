@@ -16,7 +16,7 @@ I **build** (and **break**) things, I test and ship (then break again), then I *
 ### reach me
 
 <div>
-  <a href="https://www.linkedin.com/in/nuriddinislamov/">
+  <a href="https://www.linkedin.com/in/noonosh/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
   <a href="mailto:mail@noonosh.com">
