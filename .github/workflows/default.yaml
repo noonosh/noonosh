@@ -1,0 +1,65 @@
+name: Weekday Activity
+
+on:
+  schedule:
+    - cron: "0 9-21 * * 1-5" # Runs once randomly between 9am-9pm UTC on weekdays
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+
+      - name: Configure Git
+        run: |
+          git config user.name "٩(◕‿◕｡)۶"
+          git config user.email "mail@noono.sh"
+          git remote set-url origin https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/${{ github.repository }}
+
+      - name: Create Toggle State File
+        run: |
+          if [ ! -f .toggle ]; then
+            echo "add" > .toggle
+          fi
+
+      - name: Toggle Space in README.md
+        run: |
+          CURRENT_STATE=$(cat .toggle)
+
+          if [ "$CURRENT_STATE" = "add" ]; then
+            # Add a single space at the very end of the document
+            sed -i -e '$s/$/\ /' README.md
+            echo "remove" > .toggle
+            ACTION="Added space"
+          else
+            # Remove a single space from the end of the document
+            sed -i 's/ $//' README.md
+            echo "add" > .toggle
+            ACTION="Removed space"
+          fi
+
+          declare -a messages=(
+            "Update documentation"
+            "Minor changes"
+            "Fix typo"
+            "Update README"
+            "Maintenance update"
+            "Clean up"
+            "Small improvements"
+            "Regular update"
+            "Documentation tweaks"
+            "General maintenance"
+          )
+
+          RANDOM_INDEX=$((RANDOM % ${#messages[@]}))
+          COMMIT_MSG="${messages[$RANDOM_INDEX]}"
+
+      - name: Commit and Push Changes
+        run: |
+          git add README.md .toggle
+          git commit -m "$COMMIT_MSG"
+          git push origin HEAD:main
