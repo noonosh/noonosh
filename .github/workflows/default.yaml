@@ -28,6 +28,7 @@ jobs:
           fi
 
       - name: Toggle Space in README.md
+        id: toggle
         run: |
           CURRENT_STATE=$(cat .toggle)
 
@@ -58,9 +59,10 @@ jobs:
 
           RANDOM_INDEX=$((RANDOM % ${#messages[@]}))
           COMMIT_MSG="${messages[$RANDOM_INDEX]}"
+          echo "commit_msg=$COMMIT_MSG" >> $GITHUB_ENV
 
       - name: Commit and Push Changes
         run: |
           git add README.md .toggle
-          git commit -m "$COMMIT_MSG"
+          git commit -m "${{ env.commit_msg }}"
           git push origin HEAD:main
