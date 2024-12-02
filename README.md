@@ -2,9 +2,9 @@
 
 ### `$ whoami`
 
-I build (and break) things, I test and ship (then break again), then I learn. Everyday.
+I **build** (and **break**) things, I test and ship (then break again), then I **learn**. _Everyday_.
 
-<img src="/public/readme.jpg" alt="image" width="50%" align="right">
+<img src="/public/readme.jpg" alt="image" width="40%" align="right">
 
 ### status quo
 
@@ -15,10 +15,11 @@ I build (and break) things, I test and ship (then break again), then I learn. Ev
 
 ### reach me
 
-<div style="display: flex; gap: 10px;">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nuriddinislamov/)
-
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mail@noonosh.com)
-
+<div>
+  <a href="https://www.linkedin.com/in/nuriddinislamov/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="mailto:mail@noonosh.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  </a>
 </div>
