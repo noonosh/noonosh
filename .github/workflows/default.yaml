@@ -3,7 +3,8 @@ name: Weekday Activity
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 9-21 * * 1-5" # Runs once randomly between 9am-9pm UTC on weekdays
+    # run once at 9pm UTC on weekdays
+    - cron: "0 21 * * 1-5"
 
 jobs:
   update:
