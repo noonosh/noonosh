@@ -1,21 +1,19 @@
-## Hi there 👋
+# Hi there 👋
 
----
-
-#### `$ whoami`
+### `$ whoami`
 
 I build (and break) things, I test and ship (then break again), then I learn. Everyday.
 
 ![image](/public/readme.jpg)
 
-#### status quo
+### status quo
 
 - 🎓 CS @ [ARU](https://www.aru.ac.uk/)
 - 📍 London
 - 🌱 Enjoy my stack [Python](https://www.python.org/), [Firebase](https://firebase.google.com/), [TypeScript](https://www.typescriptlang.org/), [React Native](https://reactnative.dev/) and more
 - 💻 currently in love with [Cursor](https://www.cursor.com/)
 
-#### reach me
+### reach me
 
 <div style="display: flex; gap: 10px;">
 
