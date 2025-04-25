@@ -22,4 +22,4 @@ I **build** (and **break**) things, I test and ship (then break again), then I *
   <a href="mailto:mail@noono.sh">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
   </a>
-</div>
+</div> 
