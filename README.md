@@ -8,8 +8,8 @@ I **build** (and **break**) things, I test and ship (then break again), then I *
 
 ### status quo
 
-- 🎓 CS'24 @ [ARU](https://www.aru.ac.uk/)
 - 📍 London
+- 🎓 CS'24 @ [ARU](https://www.aru.ac.uk/)
 - 💻 currently playing a lot with [Cursor](https://www.cursor.com/)
 
 ### reach me
